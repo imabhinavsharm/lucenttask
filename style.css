@@ -1,53 +1,133 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-.nav{
-    width: 100%;
-    height:5rem;
-    background-color:#fff;
-}
-.logo{
-    width: 15rem;
-    height: 3rem;
-
-}
-ul{
-   
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
 li{
     list-style: none;
-    margin: 1rem 0;
-    margin-left: 2rem;
-    font-weight: 400;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+ 
+}
+.nav ul{
+   
+display: flex;
+align-items: center;
+
 
 }
-.left{
-   
-    width: 15%;
-    margin-left:10rem;
+.nav{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 6rem;
+}
+.main_1{
+    width: 100%;
+    height: 85vh;
+background: url('./baseball-field-1149153_1920.jpg');
+}
+
+.common{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.content_1_left,.content_2_right{
+    width: 70%;
+    height: auto;
+}
+.content_1_right,.content_2_left{
+    margin: 20px;
+    width:30%;
+    min-height:400px;
+  background: url('./olympic-rings-4774237_1920.png');
+background-size: cover;
+}
+.content_2_left{
+    background: url('./180409120557738_Tokyo+2020+square+logo.jpg');
+}
+.content_1_left ,.content_2_right h1{
+    padding-top: 30px;
+    font-size: 40px;
+  
+}
+.content_1_left ,.content_2_right p{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.images_sports{
+    width: 100%;
+    height: 300px;
+    display: flex;
+ justify-content: space-around;
+}
+.image_1{
+    width: 30%;
+    height: 100%;
+    background: url('./gym-1605101_1920.jpg');
+  background-size: cover;
+}
+.image_2{
+    width: 30%;
+    height: 100%;
+   background: url('./people-2588747_1920.jpg');
+   background-size: cover;
+}
+.image_3{
+    width: 30%;
+    height: 100%;
+    background: url('./people-2588748_1920.jpg');
+    background-size: cover;
+}
+
+.history{
+ 
+    background: url('./architecture-3123949_1920.jpg');
+    background-size: cover;
     
 }
-button{
-    background-color: #004c3f;
-    width: 8rem;
-    height: 3rem;
+.history_text{
+    position: relative;
+    top: 50px;
+    margin: 0 100px;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    background: black;
     color: #fff;
-    border:0;
-    text-align : center;
-
+    opacity: 0.8;
 }
-.whole{
-    background-color: cyan;
-    height: 100vh;
-    width: 100%;
+
+.history_2{
+    padding: 20px;
+}
+
+.sports{
+background: url('./field-hockey-3646017_1920.jpg');
+background-position: center;
+background-size: cover;
+}
+.sports_abput{
+    width: 30%;
+    padding-top: 30px;
+}
+
+.news{
+    background: url('./gettyimages-179959128-1024x1024.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.news_comtainer{
+
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
 }
